@@ -1,0 +1,1 @@
+Este repositoro es para subir el taller 2 de front-end intermedio-juan moreno

@@ -28,7 +28,23 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+            <!--Registro de estudiante-->
+        <!--creacion del formulario-->
+        <form id="form">
+            <div class="mb-3">
+                <label for="tipoDocumento" class="form-label">Tipo Documento</label>
+                <select name="tipoDocumento" id="tipoDocumento" class="form-select">
+                    <option value="">Cedula</option>
+                    <option value="">Pasaporte</option>
+                    <option value="">Tarjeta de identidad</option>
+                </select>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="tipoDocumento">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+        </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

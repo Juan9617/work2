@@ -1,3 +1,1 @@
-function crearAlerta(){
-    alert("Hola mundo")
-}
+const form = document.getElementById ('form') as HTMLFormElement;

@@ -16,6 +16,6 @@ form.addEventListener('submit', (e) =>{
 
     console.log(tipoDocumento.value);
 })
-=======
+
 const form = document.getElementById ('form') as HTMLFormElement;
 

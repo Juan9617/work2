@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const form = document.getElementById ('form') as HTMLFormElement;
 
 form.addEventListener('submit', (e) =>{
@@ -18,4 +18,4 @@ form.addEventListener('submit', (e) =>{
 })
 =======
 const form = document.getElementById ('form') as HTMLFormElement;
->>>>>>> ae3f489cfdf64d800ab5215e15f0152e9c5cf78c
+

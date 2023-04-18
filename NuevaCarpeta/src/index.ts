@@ -35,13 +35,5 @@ btnGuardar.addEventListener ('click', (e) =>{
                 headers: myHeaders,
                 body: raw,
                 redirect: 'follow'
-
-}
-
-      //fetch("https://apiestudiantes.maosystems.dev/estudiantes", requestOptions)//
-        //.then(response => response.text())//
-        //.then(result => console.log(result))//
-        //.catch(error => console.log('error', error));//
-      
-
-       
+              };
+        })
